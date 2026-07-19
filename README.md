@@ -94,41 +94,6 @@ This agreement increases confidence that the solution is not simply an artifact 
 
 However, the two methods provide different types of information. Differential Evolution gives a single best solution based on the combined objective, while NSGA-II provides the complete trade-off between the two competing objectives.
 
-Complete Workflow
-
-
-UCI Energy Efficiency Dataset
-            ↓
-Data Preparation and Feature Selection
-            ↓
-Train Heating Load Random Forest
-            ↓
-Train Cooling Load Random Forest
-            ↓
-Evaluate Models Using MSE, RMSE, MAE, and R²
-            ↓
-Save Trained Random Forest Models
-            ↓
-Use Random Forest Models as Surrogate Models
-            ↓
-┌───────────────────────────┐
-│ Differential Evolution    │
-│ Single-Objective          │
-│ Minimize Heating + Cooling│
-└───────────────────────────┘
-            ↓
-Single Optimal Building Design
-
-            AND
-
-┌───────────────────────────┐
-│ NSGA-II                   │
-│ Multi-Objective           │
-│ Minimize Heating          │
-│ Minimize Cooling          │
-└───────────────────────────┘
-            ↓
-Pareto-Optimal Building Designs
 
 This project demonstrates the use of machine learning surrogate models and evolutionary optimization for energy-efficient building design.
 
