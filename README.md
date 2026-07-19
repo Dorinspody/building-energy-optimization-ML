@@ -1,4 +1,4 @@
-<img width="593" height="653" alt="table" src="https://github.com/user-attachments/assets/2b07fc48-7708-42d9-a8c6-1dbc9fa63265" />
+
 Building Energy Optimization
 
 This project uses machine learning and evolutionary optimization to improve building energy efficiency.
@@ -31,3 +31,7 @@ The optimized building parameters can be compared with the original dataset desi
 This workflow demonstrates how machine learning can support energy-efficient building design.
 
 The project combines predictive modeling, surrogate modeling, and evolutionary optimization.
+
+one of the air conditioners products:
+
+<img width="593" height="653" alt="table" src="https://github.com/user-attachments/assets/2b07fc48-7708-42d9-a8c6-1dbc9fa63265" />
